@@ -1,7 +1,5 @@
 <script>
-  import Stories from './Stories/index.svelte'
-
-  export let currentPage = 1
+  import Stories from '../stories/index.svelte'
 </script>
 
 <svelte:head>
@@ -9,5 +7,5 @@
 </svelte:head>
 
 <div class="homepage page">
-  <Stories {currentPage}/>
+  <Stories />
 </div>
