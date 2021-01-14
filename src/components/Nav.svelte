@@ -1,7 +1,7 @@
 <script>
   import { goto, stores } from '@sapper/app'
   import axios from 'axios'
-  import {GithubLogin} from 'ndtech-svelte-components'
+  import {GitHubLoginNav, Logo} from 'ndtech-svelte-components'
 
   const { session } = stores()
 
@@ -13,14 +13,7 @@
 </script>
 
 <nav class="navbar">
-  <div class="navbar-left">
-  	<a
-  		class="logo"
-  		href="/"
-  	>
-  		22nd Tech
-  	</a>
-  </div>
+  <Logo />
 
   <div>
     <ul>
@@ -48,7 +41,7 @@
         New Story
       </a>
     {:else}
-      <GithubLogin clientId="2d4079dfff80ceb2c3a7" />
+      <GitHubLoginNav clientId="2d4079dfff80ceb2c3a7" />
     {/if}
   </div>
 </nav>

@@ -48,6 +48,12 @@ code {
 	text-decoration: none;
 }
 
+.login-link {
+	font-size: 22px;
+	font-weight: 500;
+	text-decoration: none;
+}
+
 .navbar .username {
 	color: #FFF;
 }

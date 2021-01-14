@@ -10,6 +10,6 @@
   </style>
   
   <footer>
-    Copyright 2020 22nd Tech
+    Copyright 2021 22nd Tech
   </footer>
   

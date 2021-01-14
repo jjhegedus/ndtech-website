@@ -5,4 +5,4 @@
 <h1>About 22nd Tech</h1>
 
 <p>Jeff and Kim Hegedus</p>
-<p>Do something; even if it is wrong.</p>
+<p style="font-style: italic">Do something; even if it is wrong.</p>
