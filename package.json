@@ -17,7 +17,7 @@
     "test": "run-p --race dev cy:run",
     "preversion": "npm run test && npm run export",
     "version": "npm run build",
-    "postversion": "git push && git push --tags && npm publish public"
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "axios": "^0.21.1",
