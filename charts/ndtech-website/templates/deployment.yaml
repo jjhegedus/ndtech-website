@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ndtech-website
+  namespace: {{ .Values.deployment.namespace }}
+spec:
+  replicas: {{ .Values.deployment.replicas }}
+  minReadySeconds: {{ .Values.deployment.minReadySeconds | default 3 }}
+  revisionHistoryLimit: 5
+  progressDeadlineSeconds: 60
+  strategy:
+    rollingUpdate:
+      maxUnavailable: 0
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      app: ndtech-website
+  template:
+    metadata:
+      labels:
+        app: ndtech-website
+    spec:
+      containers:
+      - name: ndtech-website
+        image: "22ndtech/ndtech-website:{{ .Values.deployment.imageVersion }}"
+        imagePullPolicy: Always
+        env:
+          - name: API_BASE_URL
+            valueFrom:
+              configMapKeyRef:
+                name: ndtech-website
+                key: API_BASE_URL
+        ports:
+        - name: http
+          containerPort: {{ .Values.deployment.containerPort }}
+          protocol: TCP
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "128Mi"
+          requests:
+            cpu: "250m"
+            memory: "64Mi"
