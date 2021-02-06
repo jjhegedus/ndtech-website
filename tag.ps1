@@ -1,0 +1,1 @@
+docker tag 22ndtech/ndtech-website:latest 22ndtech/ndtech-website:0.0.1

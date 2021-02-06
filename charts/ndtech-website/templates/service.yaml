@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ndtech-website
+  namespace: {{ .Values.deployment.namespace }}
+spec:
+  selector:
+    app: ndtech-website
+  ports:
+    - port: 80
+      targetPort:  {{ .Values.deployment.containerPort }}
