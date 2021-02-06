@@ -14,7 +14,7 @@ describe('Cypress Testing: ndtech-website', () => {
 	it('has the correct <h1>', () => {
 		console.log("testing")
 		// cy.contains('h1', 'Stories')
-		cy.contains('h1', 'Welcome to ndtech!!!')
+		cy.contains('h1', 'WELCOME TO 22ND TECH!!!')
 	});
 
 	it('navigates to /about', () => {
