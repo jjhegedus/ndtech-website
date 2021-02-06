@@ -3,8 +3,9 @@
 import Chance from 'chance';
 const change = new Chance();
 
-describe('Cypress Testing: ndtech-website', () => {
+describe('Cypress Testing: ndtech-website', async () => {
 
+	await new Promise(r => setTimeout(r, 10000));
 	
 	beforeEach(() => {
 		console.log("cy = " + cy)
