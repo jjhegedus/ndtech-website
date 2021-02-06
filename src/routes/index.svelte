@@ -33,19 +33,49 @@
 {:then $dog}
 <Home currentPage="{1}"/>
 {:catch error}
-<h1 style="text-align: center">Welcome to ndtech!!!</h1>
-<h2 style="text-align: center">Are you tired of working all day under someone else's rules on someone else's ideas?</h2>
-<p>ndtech is a place individuals can collaborate in open, transparent business without middle men taking most of the profit. It is built from the ground up to be a meritocracy where the benefit you get out of the community is based on what you put in. It was founded on the belief that life is not a zero sum game. It is a cooperative effort where we can create win scenarios and grow the pool of value so everyone gets more instead of fighting for the scraps with the other peasants" while our "betters" take the lions share.</p>
-<p>Built from the ground up on 100% open source tools with ZERO VENTURE FUNDING to provide an alternative to working for others, ndtech enables you to follow your dreams without leaving you completely on your own. We are buidling a community of like minded, DIY builders, producers and visionaries who want to help the world move beyond working for the billionaires.</p> 
-<p style="font-style: italic">If you're looking for John Galt... he's here.</p>
-<br />
+
+<main>
+<h1>Welcome to 22<sup>nd</sup> Tech!!!</h1>
+
+<p>Upon launch, we will initially offer a variety of content covering everything from the most intricate technology to cool DIY projects.  As we build out the community, we will provide opportunties for you to work with us!  Check back with us often to see what we've released recently.</p>
+<p>Visit the <a href="about" target="_blank">About</a> page to learn more about 22<sup>nd</sup> Tech and our future plans.</p>
 <ul>
-  <li>Build a Website</li>
-  <li>Start a Business</li>
-  <li>Open a Shop</li>
-  <li>Market Your Content</li>
-  <li>Productivity Tools</li>
-  <li>Training</li>
-  <li>Stories Carousel</li>
+  <li><b><a href="cooking" target="_blank">Cooking</a></b> - recipes, cooking at home vs. eating out, experimenting with herbs/spices, food sensitivies</li>
+  <li><b>DIY</b> - the journey of some of our projects - big and small</li>
+  <li><b>Fitness</b> - at home workouts, weightlifting, kickboxing, yoga, jacuzzi/hot tub</li>
+  <li><b>Gardening/Landscaping</b> - propgating seeds, perenials vs, annuals, irrigation, canning/freezing</li>
+  <li><b>How to Build a Website</b> - like this one</li>
+  <li><b>Start a Business</b> - you're probably already doing it!</li>
+  <li><b>Market Your Content</b> - just get it out there to start, then keep working on it</li>
+  <li><b>Productivity Tools</b> - insights and reviews on what to use</li>
+  <li><b>Training</b> - a variety of topics</li>
+  
 </ul>
+</main>
 {/await}
+
+
+<style>
+  main {
+         text-align: left;
+         color: #000000;
+     padding: 1em;
+     max-width: 1000px;
+         margin: 0 auto;
+     }
+   h1 {
+         color: #000000;
+         text-align: center;
+     text-transform: uppercase;
+     font-size: 36pt;
+     font-weight: 400;
+     }
+     p {
+         font-size: 16pt;
+     font-weight: 150;
+     }
+     ul {
+         font-size: 16pt;
+     font-weight: 150;
+     }
+ </style>

@@ -10,6 +10,6 @@
   </style>
   
   <footer>
-    Copyright 2021 22nd Tech
+    © 2021 22<sup>nd</sup> Century Tech, Inc.
   </footer>
   
