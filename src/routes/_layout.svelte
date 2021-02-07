@@ -9,9 +9,6 @@
 
 <script>
   export let githubClientId;
-	console.log("-------------------githubClientId-----------------");
-		console.log(githubClientId);
-	console.log("-------------------githubClientId-----------------\n");
 	
 	import Nav from '../components/Nav.svelte'
   	import LoadingBar from './_components/LoadingBar.svelte'
