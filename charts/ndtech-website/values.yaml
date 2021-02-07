@@ -7,6 +7,6 @@ deployment:
   replicas: 1
   minReadySeconds: 3
   namespace: ndtech
-  imageVersion: 0.0.2
+  imageVersion: 0.0.3
   containerPort: 3000
   githubClientId: 8579c818edb32a099c96
