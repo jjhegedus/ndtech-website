@@ -5,3 +5,4 @@ metadata:
   namespace: {{ .Values.deployment.namespace }}
 data:
   API_BASE_URL: "ndtech-node-api.ndtech"
+  GITHUB_CLIENT_ID: {{ .Values.deployment.githubClientId }}

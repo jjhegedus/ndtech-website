@@ -30,6 +30,11 @@ spec:
               configMapKeyRef:
                 name: ndtech-website
                 key: API_BASE_URL
+          - name: GITHUB_CLIENT_ID
+            valueFrom:
+              configMapKeyRef:
+                name: ndtech-website
+                key: GITHUB_CLIENT_ID
         ports:
         - name: http
           containerPort: {{ .Values.deployment.containerPort }}
