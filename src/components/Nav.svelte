@@ -1,4 +1,6 @@
 <script>
+  export let githubClientId;
+
   import { goto, stores } from '@sapper/app'
   import axios from 'axios'
   import {GitHubLoginNav, Logo} from 'ndtech-svelte-components'
@@ -42,7 +44,7 @@
         New Story
       </a>
     {:else}
-      <GitHubLoginNav clientId="2d4079dfff80ceb2c3a7" />
+      <GitHubLoginNav clientId={githubClientId} />
     {/if}
   </div>
 </nav>
