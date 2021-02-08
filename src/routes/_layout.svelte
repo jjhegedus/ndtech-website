@@ -16,7 +16,12 @@
 </script>
 
 <LoadingBar/>
+
 <Nav githubClientId={githubClientId}/>
+<head>
+	<script data-ad-client="ca-pub-6882490618446355" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
 
 <main>
 	<slot></slot>
