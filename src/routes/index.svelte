@@ -39,9 +39,9 @@
 <h1>Welcome to 22<sup>nd</sup> Tech!!!</h1>
 
 <p>Upon launch, we will initially offer a variety of content covering everything from the most intricate technology to cool DIY projects.  As we build out the community, we will provide opportunties for you to work with us!  Check back with us often to see what we've released recently.</p>
-<p>Visit the <a href="about" target="_blank">About</a> page to learn more about 22<sup>nd</sup> Tech and our future plans.</p>
+<p>Visit the <a href="about">About</a> page to learn more about 22<sup>nd</sup> Tech and our future plans.</p>
 <ul>
-  <li><b><a href="cooking" target="_blank">Cooking</a></b> - recipes, cooking at home vs. eating out, experimenting with herbs/spices, food sensitivies</li>
+  <li><b><a href="cooking">Cooking</a></b> - recipes, cooking at home vs. eating out, experimenting with herbs/spices, food sensitivies</li>
   <li><b>DIY</b> - the journey of some of our projects - big and small</li>
   <li><b>Fitness</b> - at home workouts, weightlifting, kickboxing, yoga, jacuzzi/hot tub</li>
   <li><b>Gardening/Landscaping</b> - propgating seeds, perenials vs, annuals, irrigation, canning/freezing</li>
