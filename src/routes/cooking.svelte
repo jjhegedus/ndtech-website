@@ -12,16 +12,16 @@
     <br>
     <p><b><i>Family Favories</i></b></p>
     <ul>
-        <li><a href="bagnacauda" target="_blank">Bagna Cauda</a></li>
-        <li><a href="beefinaleaf" target="_blank">Beef in a Leaf</a></li>
-        <li><a href="chickenwine" target="_blank">Chicken in Wine Sauce</a></li>
-        <li><a href="granola" target="_blank">Homemade Granola</a></li>
-        <li><a href="porkpeas" target="_blank">Pork Chops and Peas</a></li>
+        <li><a href="bagnacauda">Bagna Cauda</a></li>
+        <li><a href="beefinaleaf">Beef in a Leaf</a></li>
+        <li><a href="chickenwine">Chicken in Wine Sauce</a></li>
+        <li><a href="granola">Homemade Granola</a></li>
+        <li><a href="porkpeas">Pork Chops and Peas</a></li>
     </ul>
     <br>
     <p><b><i>Instant Pot</i></b></p>
     <ul>
-        <li><a href="cheesystew" target="_blank">Cheesy Sunny Chicken Stew</a></li>
+        <li><a href="cheesystew">Cheesy Sunny Chicken Stew</a></li>
     </ul>
 
 </main>
