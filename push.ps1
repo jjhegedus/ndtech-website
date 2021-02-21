@@ -1,1 +1,1 @@
-docker push 22ndtech/ndtech-website:0.0.4
+docker push 22ndtech/ndtech-website:0.0.6
