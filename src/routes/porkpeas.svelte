@@ -45,13 +45,6 @@ main {
 		font-size: 36pt;
 		font-weight: 400;
     }
-    h3 {
-        color: #000000;
-        text-align: center;
-		text-transform: none;
-		font-size: 24pt;
-		font-weight: 200;
-    }
     p {
         font-size: 16pt;
 		font-weight: 150;
