@@ -5,7 +5,8 @@
 <main>
 <h1>Contact 22nd Tech</h1>
 
-<p>We would love to hear from you.</p>
+<p>We would love to hear from you with your questions and feedback on the site.</p>
+<p>Email us at admin@22ndTech.com</p>
 
 
 </main>

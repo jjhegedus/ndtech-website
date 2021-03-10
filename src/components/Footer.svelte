@@ -10,6 +10,6 @@
   </style>
   
   <footer>
-    © 2021 22<sup>nd</sup> Century Tech, Inc.
+    ©2021 22<sup>nd</sup> Century Tech, Inc.
   </footer>
   
